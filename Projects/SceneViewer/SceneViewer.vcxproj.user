@@ -3,7 +3,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerEnvironment>PATH=$(ProjectDir)\..\..\ThirdParty\\SDL_image\lib\x86;$(ProjectDir)\..\..\ThirdParty\\SDL2\lib\x86;$(ProjectDir)\..\..\ThirdParty\\SDL2_image\lib\x86;$(ProjectDir)\..\..\ThirdParty\glew\bin\Release\Win32</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>-scene Bridge.scene</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-scene KendalCastle.scene</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerEnvironment>PATH=$(ProjectDir)\..\..\ThirdParty\\SDL_image\lib\x86;$(ProjectDir)\..\..\ThirdParty\\SDL2\lib\x86;$(ProjectDir)\..\..\ThirdParty\\SDL2_image\lib\x86;$(ProjectDir)\..\..\ThirdParty\glew\bin\Release\Win32</LocalDebuggerEnvironment>

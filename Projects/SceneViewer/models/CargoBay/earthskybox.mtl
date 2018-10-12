@@ -1,0 +1,65 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl material_0
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_left512.png
+
+newmtl material_1
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_front512.png
+
+newmtl material_2
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_back512.png
+
+newmtl material_3
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_right512.png
+
+newmtl material_4
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_top512.png
+
+newmtl material_5
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.1 1.1 1.1
+Tr 1.000000
+illum 1
+Ns 0.000000
+map_Kd maps/sbox_bottom512.png
+

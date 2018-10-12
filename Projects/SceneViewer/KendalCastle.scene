@@ -15,6 +15,6 @@ modelPath:models/KendalCastle
 model:KendalCastle.obj
 logo:logo.png
 collider:CastleCollider.obj
-skyboxPath:models
+skyboxPath:models/KendalCastle
 skybox:earthskybox.obj
 skyBoxScale:20.0

@@ -14,7 +14,7 @@ fogNear:20.0
 modelPath:models/SirionBridge
 model:bridge.obj
 collider:bridgeCollider.obj
-skyboxPath:models
+skyboxPath:models/SirionBridge
 skybox:earthskybox.obj
 skyBoxScale:5.0
 logo:maps/logo.png
