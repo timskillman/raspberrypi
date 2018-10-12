@@ -17,6 +17,8 @@ Contains the following example projects;
  
 ## SceneViewer Project
 
+[!Bridge Screenshot](http://www.skillmanmedia.com/images/bridge7.jpg)
+
 Run SceneViewer with '-scene' command, for example
 
     ./SceneViewer -scene CargoBay.scene
