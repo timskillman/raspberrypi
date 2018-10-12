@@ -1,8 +1,10 @@
-# Raspberry Pi OpenGL ES 2.0 Model Viewer
+# Raspberry Pi OpenGL ES 2.0 Graphics Engine
 
-Experiments with OpenGL ES 2.0 on the Raspberry Pi B/B+ and Zero
+A high speed graphics engine in OpenGL ES 2.0 for the Raspberry Pi B/B+ and Zero
 
- - RPi 3D Viewer (Load modified OBJ files to create a fully collidable scene with animated textures)
+Contains the following example projects;
+
+ - Scene Viewer (Load modified OBJ files to create a fully collidable scene with animated textures)
  - ScreenRunner project with animated backgrounds and Gamepad input for changing screens
  
 # Compiling on Raspberry Pi
