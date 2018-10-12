@@ -27,6 +27,8 @@ Run SceneViewer with '-scene' command, for example
   
 ## ScreenRunner Project
 
+![Tunnel Screenshot](http://www.skillmanmedia.com/images/hextunnel.jpg)
+
 Displays a sequence of animated screens
 
 Run ScreenRunner - loads various screen scripts from the screens folder and displays them
