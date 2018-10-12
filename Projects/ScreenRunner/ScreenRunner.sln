@@ -1,0 +1,33 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{DA75C201-04BB-4D48-8DCC-C336AE6D4305}") = "ScreenRunner", "ScreenRunner.vcxproj", "{86B9CF91-8738-B044-A7BF-A295F9323D12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|ARM.ActiveCfg = Debug|ARM
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|ARM.Build.0 = Debug|ARM
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|x64.ActiveCfg = Debug|x64
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|x64.Build.0 = Debug|x64
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|x86.ActiveCfg = Debug|Win32
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Debug|x86.Build.0 = Debug|Win32
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|ARM.ActiveCfg = Release|ARM
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|ARM.Build.0 = Release|ARM
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|x64.ActiveCfg = Release|x64
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|x64.Build.0 = Release|x64
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|x86.ActiveCfg = Release|Win32
+		{86B9CF91-8738-B044-A7BF-A295F9323D12}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

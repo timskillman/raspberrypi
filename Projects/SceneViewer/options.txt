@@ -1,0 +1,7 @@
+800 600 300
+models
+CargoShip5.obj
+spacepanel.jpg
+blue8x8.png
+0.0 5.0 0.0
+window

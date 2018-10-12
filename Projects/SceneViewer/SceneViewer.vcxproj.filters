@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1E142D47-36D3-7740-9C7D-5F7ABC070098}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6AC69C4B-9960-4D43-A898-F590CE31D5AC}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2A9CF5DA-7433-EF49-AEB2-18C6C9D06AA0}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{6678c446-5457-4565-9e43-a2ea2aafd732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared Code">
+      <UniqueIdentifier>{e485b0ed-ffb5-419e-8327-96ab507b5935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SharedCode\SMGL.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMwin.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMmeshPool.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMbbox3d.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMmaterial.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMmatrix.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMshader.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMmodel.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMscene.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMmesh.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMtriangle.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMtexture.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMfileOBJ.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMloadOptions.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SharedCode\SMshapes.cpp">
+      <Filter>Shared Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SharedCode\SMGL.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMwin.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMvector.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMmeshPool.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMbbox3d.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMmaterial.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMmatrix.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMshader.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMmodel.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMscene.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMmesh.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMtriangle.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMtexture.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMfileOBJ.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMloadOptions.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SharedCode\SMshapes.h">
+      <Filter>Shared Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\fs1.glsl">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="Shaders\vs1.glsl">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>

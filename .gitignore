@@ -1,0 +1,36 @@
+
+#Build Fodlers
+[Bb]uild/
+
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+#*.[Oo]bj
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.sbr
+*.pdb
+*.exp
+*.unsuccessfulbuild
+ipch/
+obj/
+.vs/
+[Bb]in
+[Dd]ebug*/
+#[Rr]elease*/
+
+!_PC/*.user
+!Resources/**/*.[Oo]bj

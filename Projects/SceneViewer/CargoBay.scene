@@ -1,0 +1,20 @@
+screensize:1920 1080 300
+fullscreen:true
+fly:false
+lightpos:0.0 1.0 0.0
+startpos:-20.0 25.0 0.0
+nearzfarz:1.0 5000.0
+avatarHeight:8.0
+avatarFallSpeed:2.0
+avatarWalkSpeed:1.0
+avatarRunSpeed:2.0
+fogColour:0.8 0.9 1.0
+fogFar:400.0
+fogNear:20.0
+modelPath:models/CargoBay
+model:CargoHoldBaked3.obj
+collider:CargoHold_CollisionBig.obj
+logo:maps/logo.png
+skyboxPath:models/CargoBay
+skybox:earthskybox.obj
+skyBoxScale:5.0

@@ -1,0 +1,744 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl cherry
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd cherry_darkedge3.jpg
+
+newmtl stuccoCream
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stuccoCreamShaded.jpg
+
+newmtl cushion
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stuccoCreamShaded.jpg
+
+newmtl ground
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ground2.jpg
+
+newmtl black
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd btile.jpg
+
+newmtl Ground_Water
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ss6_top.jpg
+
+newmtl roof
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd tileroof.jpg
+
+newmtl offwhite
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd cushion_offwhite.jpg
+
+newmtl plank
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd 006aniegre.jpg
+
+newmtl tapestry1
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd tapestry1.jpg
+
+newmtl tap2
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd tap2.jpg
+
+newmtl wall
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd wall.jpg
+
+newmtl blacksmiths_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd blacksmithsCompleteMap.jpg
+
+newmtl walkway_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd walkwayCompleteMap.jpg
+
+newmtl dibetou
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd 019dibetou.jpg
+
+newmtl thickgrass
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd thickgrass.jpg
+
+newmtl cushwhite
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd cushion_white.jpg
+
+newmtl 15_-_Default
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd tap2.jpg
+
+newmtl 19_-_Default
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stuccoCreamShaded.jpg
+
+newmtl 22_-_Default
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd btile.jpg
+
+newmtl fireplace
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd fireplace.jpg
+
+newmtl window
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd grill.png
+
+newmtl churchceiling_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd churchceilingCompleteMap.jpg
+
+newmtl churchfloor_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd churchfloorCompleteMap.jpg
+
+newmtl churchwalls_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd churchwallsCompleteMap.jpg
+
+newmtl Box135_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatetowerturretsCompleteMap.jpg
+
+newmtl flag
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd parrflag.png
+
+newmtl ivy
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ivy.png
+
+newmtl topgatestairs_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd topgatestairsCompleteMap.jpg
+
+newmtl halltower_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd halltowerCompleteMap.jpg
+
+newmtl 11_-_Default
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stonetile.jpg
+
+newmtl Box06_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd Box06CompleteMap.jpg
+
+newmtl stairs2_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stairs2CompleteMap.jpg
+
+newmtl towertops_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatetowerturretsCompleteMap.jpg
+
+newmtl Box251_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd stairs1CompleteMap.jpg
+
+newmtl vaultceiling_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd vaultceilingCompleteMap.jpg
+
+newmtl halltop_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd halltopCompleteMap.jpg
+
+newmtl cobble_[cobbleground]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd cobblegroundCompleteMap.jpg
+
+newmtl gatetopfloor_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatetopfloorCompleteMap.jpg
+
+newmtl rgttowertopflr_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd rgttowertopflrCompleteMap.jpg
+
+newmtl Box463_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd Box463CompleteMap.jpg
+
+newmtl Box479_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gearboxCompleteMap.jpg
+
+newmtl leftgatetower_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd leftgatetowerCompleteMap.jpg
+
+newmtl lfttowerflr_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd lfttowerflrCompleteMap.jpg
+
+newmtl gates_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatesCompleteMap.jpg
+
+newmtl gates_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatesCompleteMap.jpg
+
+newmtl Box410_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd gatefloorCompleteMap.jpg
+
+newmtl tunnel_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd tunnelCompleteMap.jpg
+
+newmtl Box247_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd Box247CompleteMap.jpg
+
+newmtl topstairs_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd topstairsCompleteMap.jpg
+
+newmtl Box300_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd Box300CompleteMap.jpg
+
+newmtl Box292_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd Box292CompleteMap.jpg
+
+newmtl wingfloor`_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd wingfloor`CompleteMap.jpg
+
+newmtl hallwalls_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallwallsCompleteMap.jpg
+
+newmtl Tube01_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd innerStairsCompleteMap.jpg
+
+newmtl hallturrets_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallturretsCompleteMap.jpg
+
+newmtl Box07_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd dbblockCompleteMap.jpg
+
+newmtl map
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd aerialview.jpg
+
+newmtl rightgatetower_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd rightgatetowerCompleteMap.jpg
+
+newmtl hallceiling_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallceilingCompleteMap.jpg
+
+newmtl hallbackwall_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallbackwallCompleteMap.jpg
+
+newmtl lftend_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd lftendCompleteMap.jpg
+
+newmtl rgtend_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd rgtendCompleteMap.jpg
+
+newmtl balconyfloor_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd balconyfloorCompleteMap.jpg
+
+newmtl hallbackwall2_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallbackwall2CompleteMap.jpg
+
+newmtl hallfloor_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallfloorCompleteMap.jpg
+
+newmtl vault
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd vaultsCompleteMap.jpg
+
+newmtl hallwallsmain
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd hallwallsmainCompleteMap.jpg
+
+newmtl wwingfloors_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd wwingfloorsCompleteMap.jpg
+
+newmtl wwceiling_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd wwceilingCompleteMap.jpg
+
+newmtl westwing_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd westwingCompleteMap.jpg
+
+newmtl ceilingwing_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd ceilingwingCompleteMap.jpg
+
+newmtl Box494_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd firebaseCompleteMap.jpg
+
+newmtl westwinglowceiling_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd westwinglowceilingCompleteMap.jpg
+
+newmtl southtower_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd southtowerCompleteMap.jpg
+
+newmtl grandstairs_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd grandstairsCompleteMap.jpg
+
+newmtl Box01_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd towertopCompleteMap.jpg
+
+newmtl Box378_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd fireplaceCompleteMap.jpg
+
+newmtl Box445_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd sstairsCompleteMap.jpg
+
+newmtl Box394_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd rgttowerstairsCompleteMap.jpg
+
+newmtl Box305_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd smstairs2CompleteMap.jpg
+
+newmtl smstairs2_Shell_Material
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd smstairs2CompleteMap.jpg
+
+

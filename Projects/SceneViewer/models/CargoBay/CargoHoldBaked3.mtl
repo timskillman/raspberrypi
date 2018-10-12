@@ -1,0 +1,228 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl ashphalt
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/ashphalt.jpg
+
+newmtl ashphalt_[barriers]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/barriersCompleteMap.png
+
+newmtl walkplate
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/walkplate.png
+
+newmtl orig_ashphaltShaded_[strips]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/stripsCompleteMap.png
+
+newmtl blueglow
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/blueglow.png
+
+newmtl whiteLight
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/white.png
+
+newmtl glass
+Ka 0.200000 0.200000 0.200000
+Kd 0.500000 0.500000 0.500000
+Ks 1.000000 1.000000 1.000000
+Tr 0.500000
+illum 0
+Ns 0.000000
+map_Kd maps/white.png
+
+newmtl red
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl orange
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/orange.png
+
+newmtl chevrons_[Line68]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/ChevronsCompleteMap.png
+
+newmtl panels
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/fx3_Panels.png
+
+newmtl walkplate_[walkways]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/walkwaysCompleteMap.jpg
+
+newmtl body
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/bodyCompleteMap.jpg
+
+newmtl bluealum
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/bluealumCompleteMap.png
+
+newmtl orig_bluealum
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/bluealum.jpg
+
+newmtl airlock
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/airlockCompleteMap.png
+
+newmtl medmon
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/MedMon1.png
+
+newmtl radar
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+anim 0.0833333 0.0
+Ns 0.000000
+map_Kd maps/radar.png
+
+newmtl steam
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+anim 0.0833333 0.0
+Ns 0.000000
+map_Kd maps/steamani12b.png
+
+newmtl lensflare
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/lens-flare.png
+
+newmtl redflare
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/lens-flare.png
+
+newmtl orangeflare
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 0.500000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/lens-flare.png
+
+
+newmtl white_[rods]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/rodsCompleteMap.png
+
+newmtl orig_panels_[panel]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/panelCompleteMap.png

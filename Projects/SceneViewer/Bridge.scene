@@ -1,0 +1,21 @@
+screensize:1920 1080 300
+fullscreen:true
+fly:false
+lightpos:0.0 1.0 0.0
+startpos:10.0 -20.0 0.0
+nearzfarz:1.0 5000.0
+avatarHeight:8.0
+avatarFallSpeed:1.0
+avatarWalkSpeed:0.5
+avatarRunSpeed:2.0
+fogColour:0.8 0.9 1.0
+fogFar:400.0
+fogNear:20.0
+modelPath:models/SirionBridge
+model:bridge.obj
+collider:bridgeCollider.obj
+skyboxPath:models
+skybox:earthskybox.obj
+skyBoxScale:5.0
+logo:maps/logo.png
+

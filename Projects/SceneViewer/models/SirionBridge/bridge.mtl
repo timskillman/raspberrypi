@@ -1,0 +1,300 @@
+#
+# Wavefront material file
+# Converted by Meshlab Group
+#
+
+newmtl cpanels
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/cpanels.png
+
+newmtl red
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl orig_24_-_Default
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl 12_-_Default
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl whites
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/white.png
+
+newmtl blueAlum
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bluealum.jpg
+
+newmtl cargoconsole
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/cargoconsole.png
+
+newmtl bay1
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bay1.jpg
+
+newmtl bay2
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bay2.jpg
+
+newmtl bay3
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bay3.jpg
+
+newmtl hullmetal
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/fx3_panels.png
+
+newmtl Material__38_[Tube01]
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl body
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/fx3_panels.png
+
+newmtl bridgefloor
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bridgefloorCompleteMap.png
+
+newmtl box
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/boxCompleteMap.png
+
+newmtl carpet
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/carpetCompleteMap.png
+
+
+newmtl cabin
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 0.100000 0.100000 0.100000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/cabinCompleteMap.png
+
+
+newmtl whitelight
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/white.png
+
+newmtl earth
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 1.5 1.5 1.5
+Tr 0.500000
+illum 0
+anim 0.001 0.0
+Ns 0.000000
+map_Kd maps/earthmapsml.jpg
+
+newmtl blueAlumShells
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.800000 0.800000 0.800000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/consolesCompleteMap.png
+
+newmtl blackleather
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/blacktotonkaclose.jpg
+
+newmtl 14_-_Default
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl Material__29
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl ashphalt
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/ashphalt.jpg
+
+newmtl ashphaltShaded
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/ashphaltShaded.jpg
+
+newmtl medmon
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 0
+Ns 0.000000
+map_Kd maps/medmon1.png
+
+
+newmtl window
+Ka 0.200000 0.200000 0.200000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Tr 0.400000
+illum 2
+Ns 0.000000
+map_Kd maps/white.png
+
+newmtl Material__32
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl Material__37
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/red.png
+
+newmtl bridgeAlum
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.800000 0.800000 0.800000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bridgeAlumCompleteMap.png
+
+newmtl asphalt_[windows]
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.800000 0.800000 0.800000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/windowsCompleteMap.png
+
+
+newmtl whites_[bridgewhites]
+Ka 0.100000 0.100000 0.100000
+Kd 1.000000 1.000000 1.000000
+Ks 0.800000 0.800000 0.800000
+Tr 1.000000
+illum 2
+Ns 0.000000
+map_Kd maps/bridgewhitesCompleteMap.png
