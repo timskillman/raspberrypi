@@ -159,7 +159,7 @@ namespace SMfileOBJ {
 						meshModel.resize(1);
 						meshModel[0].materialRef = 0;
 					}
-					
+
 					switch (readType) {
 					case 0:
 						sscanf(vals.c_str(), "%d/%d/%d %d/%d/%d %d/%d/%d", &v1, &uv1, &n1, &v2, &uv2, &n2, &v3, &uv3, &n3);

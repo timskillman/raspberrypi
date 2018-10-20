@@ -53,36 +53,69 @@ void SMmeshPool::addMesh(SMmesh &mesh, bool deleteVerts)
 	//SDL_Log("Creating verts buffer %d",currentBuffer);
 	if (currentBuffer<0) {
 		//buffer not setup yet? Then push back existing mesh verts into the buffer
+		if ((mesh.vc / mesh.stride) > 65520) {
+			SDL_Log("ERROR - single mesh verts larger than 65535 verts!!"); //needs fixing later on !
+		}
 		vertBuffer.push_back(mesh.verts);
 		currentBuffer++;
 		mesh.vertOffset = 0;
+		mesh.vertSize = mesh.vc / mesh.stride;
+		mesh.bufRef = currentBuffer;
+		meshes.push_back(mesh);
 	} 
 	else {
 		//Check if existing buffer plus mesh verts > 65535 (RPi limitation) and create a new buffer if so
 		std::vector<float> &mverts = vertBuffer[currentBuffer];
-		mesh.vertOffset = mverts.size() / mesh.stride;
-		if (((mverts.size()+mesh.verts.size())/mesh.stride) > 65535) {
-			if ((mverts.size()/mesh.stride) > 65535) {
-				uint32_t bufsReq = (mverts.size() / mesh.stride) / 65536;
-				SDL_Log("ERROR - single mesh verts larger than 65535 verts!!"); //needs fixing later on !
+		uint32_t msz = mverts.size();
+		uint32_t vs = (msz + mesh.vc) / mesh.stride;
+		uint32_t ms = mesh.vc / mesh.stride;
+		uint32_t maxverts = 65520; //multiple of 24 vertices (3 xyz, 3 triangle points)
+		if (vs > maxverts) {
+			if (ms > maxverts) {
+				uint32_t bufsReq = ms / maxverts;
+				uint32_t memsize = maxverts;
+				std::vector<float> newverts;
+				newverts.resize(memsize * mesh.stride);
+				mesh.vertOffset = 0;
+				mesh.vertSize = memsize;
+				for (size_t b = 0; b < bufsReq; b++) {
+					memcpy(newverts.data(), &mesh.verts[b * memsize], memsize * mesh.stride * sizeof(float));
+					vertBuffer.push_back(newverts);
+					currentBuffer++;
+					mesh.bufRef = currentBuffer;
+					meshes.push_back(mesh);
+				}
+				memsize = ms - bufsReq * maxverts;
+				newverts.resize(memsize * mesh.stride);
+				memcpy(newverts.data(), &mesh.verts[bufsReq * maxverts], memsize * mesh.stride * sizeof(float));
+				vertBuffer.push_back(newverts);
+				currentBuffer++;
+				mesh.vertSize = memsize;
+				mesh.bufRef = currentBuffer;
+				meshes.push_back(mesh);
+
+				//SDL_Log("ERROR - single mesh verts larger than 65535 verts!!"); //needs fixing later on !
 			}
 			else {
 				vertBuffer.push_back(mesh.verts);
 				currentBuffer++;
 				mesh.vertOffset = 0;
+				mesh.vertSize = mesh.vc / mesh.stride;
+				mesh.bufRef = currentBuffer;
+				meshes.push_back(mesh);
 			}
 		}
 		else {
 			//else copy mesh verts into existing buffer
-			for (size_t v=0; v<mesh.verts.size(); v++) {
-				mverts.push_back(mesh.verts[v]);
-			}
+			mverts.resize(msz + mesh.vc);
+			memcpy(&mverts[msz], &mesh.verts[0], mesh.vc * sizeof(float));
+			mesh.vertOffset = msz / mesh.stride;
+			mesh.vertSize = mesh.vc / mesh.stride;
+			mesh.bufRef = currentBuffer;
+			meshes.push_back(mesh);
 		}
 	}
-	mesh.vertSize = mesh.vc / mesh.stride;
-	mesh.bufRef = currentBuffer;
 	if (deleteVerts) mesh.verts.resize(0);
-	meshes.push_back(mesh);
 }
 
 void SMmeshPool::renderMesh(int meshRef)
