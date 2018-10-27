@@ -1,4 +1,5 @@
-precision mediump float;       // Set the default precision to medium. We don't need as high of a
+#version 120
+//precision mediump float;       // Set the default precision to medium. We don't need as high of a
 
 uniform mat4 u_ProjMatrix;     // view/projection matrix.
 uniform mat4 u_ModelMatrix;    // model matrix.
