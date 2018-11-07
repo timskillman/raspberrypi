@@ -6,7 +6,7 @@ Contains the following example projects;
 
  - **SceneViewer** Load modified OBJ files to view fully collidable scenes with animated textures
  - **ScreenRunner** Animated backgrounds with Gamepad input for changing between screens
- 
+    
 # Compiling on Raspberry Pi
 
  - Run 'make' for particular project in Projects folder
@@ -29,7 +29,23 @@ Contains the following example projects;
    
    - libgles1-mesa-13.0.6-1+rpi2
    - libgles1-mesa-dev-13.0.6-1+rpi2
- 
+
+**Configuring the Raspberry Pi for Raspberry Stretch OS (with Desktop)**
+
+These examples require OpenGL hardware acceleration and 256Mb graphics memory. Do the following to configure your Raspberry Pi if these examples run slowly;
+
+    Open terminal and type;
+
+    $ sudo raspi-config
+
+    - Select 7 'Advanced Options'
+    - Select A3 'Memory Split'
+    - Type 256 and hit enter (to reserve 256Mb graphics memory)
+    - Select 7 'Advanced Options'
+    - Select A7 'GL Driver'
+    - Select G1 GL (Full KMS) OpenGL desktop driver with full KMS
+    - Select <Finish> and reboot
+    
 # Compiling for Windows
 
  - Load solution in VS2017 from Projects folder and run
