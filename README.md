@@ -11,24 +11,12 @@ Contains the following example projects;
 
  - Run 'make' for particular project in Projects folder
  
- **Note:** SDL2.0.5 is installed in Raspbian Stretch although you will need to add other libraries to develop on the Pi with this code;
+ **Note:** SDL2.0.5 is installed in Raspbian Stretch although you will need to use SDL2.0.8 for the shaders in these projects to work.
  
- To add libraries, use the 'Add / Remove Software' utility from the Pi->Preferences menu
+ Please follow the instructions on ChoccyHobNob's website to install SDL2.0.8 on your Raspberry Pi;
  
- Add the following libraries;
+ https://choccyhobnob.com/raspberry-pi/sdl2-2-0-8-on-raspberry-pi/
  
-   - Simple DirectMedia Layer development files (libsdl2-dev-2.0.5+dfsg1-2)
-   - Image loading library for SDL2 (libsdl2-image-2.0-0-2.0.1+dfsg-2+deb9u1)
-   - Image loading library for SDL2 development files (libsdl2-image-dev-2.0.1+dfsg-2+deb9u1)
-   - TrueType Font library for SDL2 (libsdl2-ttf-2.0-0-2.0.14+dfsg1-1)
-   - TrueType Font library for SDL2 development files (libsdl2-ttf-dev-2.0.14+dfsg1-1)
-   
-   (you could also add SDL2 Mixer and Network as well - but not essential)
-   
-   SDL2 libraries also requires OpenGLES 1.x API (GLES library) not currently included in the Stretch image ...
-   
-   - libgles1-mesa-13.0.6-1+rpi2
-   - libgles1-mesa-dev-13.0.6-1+rpi2
 
 **Configuring the Raspberry Pi for Raspberry Stretch OS (with Desktop)**
 
