@@ -13,7 +13,7 @@ Contains the following example projects;
  
  **Note:** SDL2.0.5 is installed in Raspbian Stretch although you will need to use SDL2.0.9 for the shaders in these projects to work.
  
- Please follow the instructions on ChoccyHobNob's website to install SDL2.0.9 (of the latest SDL2) on your Raspberry Pi;
+ Please follow the instructions on ChoccyHobNob's website to install SDL2.0.9 (or the latest SDL2) on your Raspberry Pi;
  
  https://choccyhobnob.com/raspberry-pi/sdl2-2-0-8-on-raspberry-pi/
  
